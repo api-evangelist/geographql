@@ -1,0 +1,32 @@
+aid: geographql
+name: GeographQL
+description: "A Country, State, and City GraphQL API"
+url: https://geographql.netlify.app
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: GeographQL
+    description: "A Country, State, and City GraphQL API"
+    humanURL: https://geographql.netlify.app
+    baseURL: https://geographql.netlify.app
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://geographql.netlify.app
+common:
+  - type: Website
+    url: https://geographql.netlify.app
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
