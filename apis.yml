@@ -10,23 +10,25 @@ x-category: "Geocoding"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Geocoding
-  - Public APIs
+- Geocoding
+- Public APIs
 apis:
-  - name: GeographQL
-    description: "A Country, State, and City GraphQL API"
-    humanURL: https://geographql.netlify.app
-    baseURL: https://geographql.netlify.app
-    tags:
-      - Geocoding
-    properties:
-      - type: Documentation
-        url: https://geographql.netlify.app
-common:
-  - type: Website
+- name: GeographQL
+  description: "A Country, State, and City GraphQL API"
+  humanURL: https://geographql.netlify.app
+  baseURL: https://geographql.netlify.app
+  tags:
+  - Geocoding
+  properties:
+  - type: Documentation
     url: https://geographql.netlify.app
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+  - url: graphql/geographql-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://geographql.netlify.app
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
