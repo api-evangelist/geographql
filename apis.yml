@@ -25,6 +25,10 @@ apis:
   - url: graphql/geographql-graphql.md
     type: GraphQL
 common:
+- type: TrustCenter
+  url: security/geographql-trust-center.yml
+- type: DomainSecurity
+  url: security/geographql-domain-security.yml
 - type: Website
   url: https://geographql.netlify.app
 - type: PublicAPIsListing
